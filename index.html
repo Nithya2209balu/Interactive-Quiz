@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Quiz</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="quiz-container">
+<h2>Simple Quiz</h2>
+<form id="quiz-form">
+<div class="question">
+<label for="q1">1. What is the capital of France?</label><br>
+<input type="radio" name="q1" value="Paris"> Paris<br>
+<input type="radio" name="q1" value="London"> London<br>
+<input type="radio" name="q1" value="Berlin"> Berlin<br>
+<input type="radio" name="q1" value="Madrid"> Madrid<br>
+</div>
+<div class="question">
+<label for="q2">2. Which planet is known as the Red Planet?</label><br>
+<input type="radio" name="q2" value="Earth"> Earth<br>
+<input type="radio" name="q2" value="Mars"> Mars<br>
+<input type="radio" name="q2" value="Jupiter"> Jupiter<br>
+<input type="radio" name="q2" value="Saturn"> Saturn<br>
+</div>
+<div class="question">
+<label for="q3">3. Who painted the Mona Lisa?</label><br>
+<input type="radio" name="q3" value="Leonardo da Vinci"> Leonardo da Vinci<br>
+<input type="radio" name="q3" value="Pablo Picasso"> Pablo Picasso<br>
+<input type="radio" name="q3" value="Vincent van Gogh"> Vincent van Gogh<br>
+<input type="radio" name="q3" value="Claude Monet"> Claude Monet<br>
+</div>
+<button type="submit">Submit Answers</button>
+</form>
+<div id="quiz-results"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
